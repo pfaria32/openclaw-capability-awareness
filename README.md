@@ -384,6 +384,10 @@ MIT License - See [LICENSE](LICENSE)
 
 ---
 
+## Repository
+
+**GitHub:** https://github.com/pfaria32/openclaw-capability-awareness
+
 ## Related Projects
 
 - **[OpenClaw](https://github.com/openclaw/openclaw)** - AI agent framework this was designed for
