@@ -1,5 +1,26 @@
 # Capability-Awareness System
 
+---
+
+## ⚠️ BETA SOFTWARE - USE AT YOUR OWN RISK
+
+**THIS IS EXPERIMENTAL SOFTWARE IN ACTIVE DEVELOPMENT.**
+
+- ❌ **NO WARRANTIES** — This software is provided "AS IS" without warranty of any kind
+- ❌ **NO GUARANTEES** — May contain bugs, break unexpectedly, or behave unpredictably
+- ❌ **NOT RESPONSIBLE** — Author(s) are not liable for any damages, data loss, or failures
+- ⚠️ **SECURITY RISKS** — AI agents have broad system access; review code before deploying
+- ⚠️ **PRIVACY RISKS** — Some skills handle personal data; understand what you're running
+- 📝 **USE RESPONSIBLY** — Test thoroughly in safe environments before production use
+- 🔍 **AUDIT THE CODE** — Don't trust, verify. Read the source before running.
+
+**By using this software, you acknowledge these risks and accept full responsibility.**
+
+**Acknowledgment requested:** If you use or modify this software, please acknowledge the original source.
+
+---
+
+
 **Making AI agents reliably aware of custom fork capabilities without bloating the always-on system prompt.**
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
@@ -398,7 +419,7 @@ MIT License - See [LICENSE](LICENSE)
 
 ## Acknowledgments
 
-Designed for Pedro Bento de Faria's OpenClaw fork as part of a comprehensive token economy optimization project.
+Designed for User's OpenClaw fork as part of a comprehensive token economy optimization project.
 
 **Design goals:**
 - Minimize token spend while maximizing agent capability awareness

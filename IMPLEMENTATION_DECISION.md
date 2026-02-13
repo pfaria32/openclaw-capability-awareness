@@ -656,7 +656,7 @@ openclaw env status
 Given your context:
 - History of "build broke" incidents
 - Token economy already sensitive
-- Time pressure (job hunt, interviews)
+- Time pressure (project work, meetings)
 - Need reliability over optimization
 
 **Choose:** Skills-First approach (today, 2-3h)

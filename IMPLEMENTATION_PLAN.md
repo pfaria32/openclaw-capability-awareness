@@ -1281,7 +1281,7 @@ token_budget: 350
 # Second Brain Loop Integration
 
 **Outlook integration:**
-- Account: bobtheclaw@outlook.com
+- Account: user@example.com
 - Check email: `node projects/second-brain-loop/src/cli/check-outlook.js email`
 - Check calendar: `node projects/second-brain-loop/src/cli/check-outlook.js calendar`
 - Upcoming events: `node projects/second-brain-loop/src/cli/check-outlook.js upcoming 7`

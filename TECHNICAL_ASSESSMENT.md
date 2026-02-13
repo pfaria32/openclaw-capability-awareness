@@ -405,7 +405,7 @@ if (!validation.valid) {
 
 **Problem:**
 ```markdown
-Account: bobtheclaw@outlook.com
+Account: user@example.com
 ```
 
 **Should not be in generic capability cards.**
@@ -413,7 +413,7 @@ Account: bobtheclaw@outlook.com
 **Required Change:**
 ```markdown
 # Before
-Account: bobtheclaw@outlook.com
+Account: user@example.com
 
 # After
 Account: Configured via env (check `openclaw config` for details)
