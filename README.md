@@ -3,8 +3,27 @@
 **Making AI agents reliably aware of custom fork capabilities without bloating the always-on system prompt.**
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/status-PR%20Ready-green.svg)]()
-[![Implementation](https://img.shields.io/badge/effort-4--6%20hours-orange.svg)]()
+[![Status](https://img.shields.io/badge/status-Ready%20for%20Implementation-green.svg)]()
+[![Version](https://img.shields.io/badge/version-2.0%20(Refined)-blue.svg)]()
+[![Implementation](https://img.shields.io/badge/effort-6--8%20hours-orange.svg)]()
+
+---
+
+## 🎯 Version 2.0 - Refined & Hardened
+
+**Critical corrections applied based on independent technical assessment:**
+
+✅ **Zero baseline cost** - Router-gated only (was: +400 tokens baseline)  
+✅ **Real temp files** - No more synthetic paths (guaranteed to work)  
+✅ **Frontmatter-only registry** - Single source of truth (no drift)  
+✅ **Content-length token caps** - Enforced (not estimated)  
+✅ **Repo-only loading** - Security-first (workspace opt-in)  
+✅ **Per-card validation** - Non-blocking (graceful degradation)  
+✅ **Safe rollback** - Proper JSON editing (no corruption)  
+✅ **Metrics instrumentation** - Kill switch + analytics  
+✅ **Discovery tool retained** - Complementary debugging
+
+**See:** [`TECHNICAL_ASSESSMENT.md`](TECHNICAL_ASSESSMENT.md) for full details
 
 ---
 
@@ -56,13 +75,33 @@ Tier 3: SYSTEM_ARCHITECTURE.md
 
 ---
 
+## ⚠️ Version Notice
+
+**Use v2.0 (Refined) documents** - Original v1.0 plan contained critical issues identified in technical assessment.
+
+✅ **Latest (v2.0):**
+- [`REFINED_IMPLEMENTATION_PLAN.md`](REFINED_IMPLEMENTATION_PLAN.md) - Complete implementation guide
+- [`REFINED_SUMMARY.md`](REFINED_SUMMARY.md) - Executive summary
+- [`ARCHITECTURE.md`](ARCHITECTURE.md) - Design decisions
+
+📋 **Reference:**
+- [`TECHNICAL_ASSESSMENT.md`](TECHNICAL_ASSESSMENT.md) - What changed and why
+
+❌ **Deprecated (v1.0):**
+- `IMPLEMENTATION_PLAN.md` - Contains architectural flaws (use REFINED version)
+- `SUMMARY.md` - Superseded by REFINED version
+
+---
+
 ## Quick Start
 
 ### 1. Read the Plan
 
-**Start here:** [`IMPLEMENTATION_PLAN.md`](IMPLEMENTATION_PLAN.md) (35 KB)
+**Start here:** [`REFINED_IMPLEMENTATION_PLAN.md`](REFINED_IMPLEMENTATION_PLAN.md) (36 KB)
 
-**Quick reference:** [`SUMMARY.md`](SUMMARY.md) (4 KB)
+**Quick reference:** [`REFINED_SUMMARY.md`](REFINED_SUMMARY.md) (9 KB)
+
+**Design docs:** [`ARCHITECTURE.md`](ARCHITECTURE.md) (19 KB)
 
 ### 2. Understand the Architecture
 

@@ -1,0 +1,21 @@
+{
+  "$schema": "Comment: Add to your ~/.openclaw/openclaw.json",
+  "capabilities": {
+    "enabled": true,
+    "maxTokens": 1500,
+    "allowWorkspaceCards": false,
+    "forceInclude": [],
+    "exclude": [],
+    "autoDisableThreshold": 0.30,
+    "autoDisableWindowHours": 24
+  },
+  "comments": {
+    "enabled": "Set to false to disable capability injection globally",
+    "maxTokens": "Maximum tokens for capability injection per session",
+    "allowWorkspaceCards": "Allow loading capabilities from workspace (security: default false)",
+    "forceInclude": "Array of capability IDs to always inject (regardless of router tags)",
+    "exclude": "Array of capability IDs to never inject",
+    "autoDisableThreshold": "Kill switch: disable if >X% sessions trigger injection (0-1)",
+    "autoDisableWindowHours": "Kill switch time window in hours"
+  }
+}

@@ -1,22 +1,24 @@
 # AGENTS.md - [Your Fork Name] Capabilities
 
-[Brief one-sentence description of your fork's unique capabilities]
+This fork has [brief list of custom features].
 
 **Capability domains:**
 - domain-1: Brief description
 - domain-2: Brief description
 - domain-3: Brief description
 
-**Deep docs:** See SYSTEM_ARCHITECTURE.md (read via tool when needed)  
-**Capability cards:** Auto-injected when relevant (docs/capabilities/)
+**Discovery:**
+- Use `list_capabilities` tool to see what's available
+- Router auto-injects relevant capabilities when needed
+- Read SYSTEM_ARCHITECTURE.md for deep technical details
 
-**Active hooks:** [list your hooks, e.g., before_model_select, before_context_build]  
-**Config:** [path to your config file]
+**Active hooks:** [list hooks: before_model_select, before_context_build, etc.]  
+**Config:** ~/.openclaw/openclaw.json
 
 ---
 
-**Template notes:**
-- Keep this ≤500 chars total
-- Points, doesn't explain
-- Always loaded (minimal token cost)
-- Updated manually when adding capabilities
+**Guidelines for this file:**
+- Keep ≤600 characters (enforced)
+- Point, don't explain (details go in capability cards)
+- Update when adding/removing capabilities
+- Place at repo root (always loaded)
