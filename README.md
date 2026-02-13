@@ -3,9 +3,9 @@
 **Making AI agents reliably aware of custom fork capabilities without bloating the always-on system prompt.**
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/status-Ready%20for%20Implementation-green.svg)]()
+[![Status](https://img.shields.io/badge/status-Deployed%20(Skills--First)-success.svg)]()
 [![Version](https://img.shields.io/badge/version-2.0%20(Refined)-blue.svg)]()
-[![Implementation](https://img.shields.io/badge/effort-6--8%20hours-orange.svg)]()
+[![Implementation](https://img.shields.io/badge/deployed-2026--02--13-brightgreen.svg)]()
 
 ---
 
@@ -412,14 +412,14 @@ Designed for Pedro Bento de Faria's OpenClaw fork as part of a comprehensive tok
 
 ## Status
 
-✅ **PR-ready implementation plan**  
-✅ **Complete documentation**  
-✅ **Code examples and templates**  
-✅ **Security controls defined**  
-✅ **Rollback procedures documented**  
-⏳ **Implementation pending** (4-6 hours)
+✅ **Implemented via Skills-First approach** (2026-02-13 05:35 UTC)  
+✅ **5 capability skills deployed** (token-economy, telegram, memory, second-brain, env)  
+✅ **AGENTS.md enhanced** with capability hints  
+✅ **2-hour deployment** (faster than Full Injection's 6-8h)  
+✅ **Monitoring ongoing** (evaluate after 1-2 weeks)  
+⏳ **Full Injection** upgrade available if needed
 
-**Next step:** Follow [`IMPLEMENTATION_PLAN.md`](IMPLEMENTATION_PLAN.md) to implement in your fork.
+**See:** [`SKILLS_FIRST_IMPLEMENTATION.md`](SKILLS_FIRST_IMPLEMENTATION.md) for deployment details.
 
 ---
 
